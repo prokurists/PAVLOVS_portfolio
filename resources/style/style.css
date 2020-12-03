@@ -1,0 +1,93 @@
+body {
+    font-family: "Lucida Console", Courier, monospace;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 14px;}
+  .margin {margin-bottom: 25px;}
+  .bg-1 { 
+    background-color: #83A0A0; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #4C5F6B; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #83A0A0;
+    color: #fff;
+  }
+  .bg-5 { 
+    background-color: #4C5F6B;
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #83A0A0 !important;
+  }
+  #containerMe{
+    width:70%;
+    text-align: center;
+    margin:auto;
+  }
+  .w60{
+    max-width: 80%;
+    margin:auto;
+    padding: auto;
+  }
+  .list-group-item {
+background-color: transparent;
+border-top: 1px solid #ddd;
+border-radius: 0;
+color: #fff;
+  }
+.noBorder{
+    border:0;
+  }
+
+#lineLeft{
+border-left: 5px solid #83A0A0; 
+  }
+
+#headText{
+background-color: #83A0A0; 
+border: 0;
+  }
+#contactMeLinks {
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 2em;
+}
+#projectsCarousel{
+    padding:20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#knowImage{
+  max-height: 300px;
+  width: auto;
+
+}
+
+#containerImage{
+  display:inline;
+  width: 400px;
+  max-height:300px;
+}
